@@ -72,3 +72,7 @@ mypy .
 
 GitHub Actions (`.github/workflows/ci.yml`) запускает flake8, isort, black
 и mypy, затем pytest — при пуше в любую ветку и при открытии PR.
+
+## Проверка CI
+
+Эта секция подтверждает, что CI запускается и на пуш в отдельную ветку, и на PR.
